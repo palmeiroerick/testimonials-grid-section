@@ -17,12 +17,12 @@ Users should be able to:
 
 ## Screenshot
 
-![](./screenshot.jpg)
+![Screen Shot 2024-02-07 at 07 07 26](https://github.com/palmeiroerick/testimonials-grid-section/assets/148393698/8cdfd327-c938-44ca-9423-052d3846c9b7)
 
 ## Links
 
-- [Solution]()
-- [Live Site]()
+- [Solution](https://github.com/palmeiroerick/testimonials-grid-section/)
+- [Live Site](https://testimonials-grid-section-puce-three.vercel.app/)
 
 ## Built with
 
