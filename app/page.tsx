@@ -5,8 +5,8 @@ import Title from "@/components/Title";
 
 export default function Home() {
   return (
-    <main className="m-auto my-20 flex w-80 flex-col gap-5">
-      <Container className="bg-moderateViolet bg-quotation bg-[top_right_1.5rem] bg-no-repeat">
+    <main className="m-auto my-20 flex w-80 flex-col gap-5 lg:grid lg:h-[40rem] lg:w-[70rem] lg:grid-cols-4 lg:grid-rows-2 lg:gap-x-8 lg:gap-y-6">
+      <Container className="bg-moderateViolet bg-quotation bg-[top_right_1.5rem] bg-no-repeat lg:col-start-1 lg:col-end-3 lg:bg-[top_right_5rem]">
         <Person person="Daniel Clifford" />
         <Title className="text-white">
           I received a job offer mid-course, and the subjects I learned were
@@ -23,7 +23,7 @@ export default function Home() {
           a Software Engineer at a VR startup. ”
         </Text>
       </Container>
-      <Container className="bg-veryDarkGrayishBlue">
+      <Container className="bg-veryDarkGrayishBlue lg:col-start-3 lg:col-end-4">
         <Person person="Jonathan Walters" />
         <Title className="text-white">
           The team was very supportive and kept me motivated
@@ -34,7 +34,7 @@ export default function Home() {
           investments I’ve made in myself. ”
         </Text>
       </Container>
-      <Container className="bg-white">
+      <Container className="bg-white lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-3">
         <Person person="Jeanette Harmon" />
         <Title className="text-veryDarkBlackishBlue">
           An overall wonderful and rewarding experience
@@ -44,7 +44,7 @@ export default function Home() {
           enjoy, and make a good living while doing something I love. ”
         </Text>
       </Container>
-      <Container className="bg-veryDarkBlackishBlue">
+      <Container className="bg-veryDarkBlackishBlue lg:col-start-2 lg:col-end-4 lg:row-start-2 lg:row-end-3">
         <Person person="Patrick Abrams" />
         <Title className="text-white">
           Awesome teaching support from TAs who did the bootcamp themselves.
@@ -60,7 +60,7 @@ export default function Home() {
           people. ”
         </Text>
       </Container>
-      <Container className="bg-white">
+      <Container className="bg-white lg:col-start-4 lg:col-end-5 lg:row-start-1 lg:row-end-3">
         <Person person="Kira Whittle" />
         <Title className="text-veryDarkBlackishBlue">
           Such a life-changing experience. Highly recommended!
