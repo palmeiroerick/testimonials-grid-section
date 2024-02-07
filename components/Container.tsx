@@ -4,5 +4,5 @@ type ContainerProps = {
 };
 
 export default function Container({ children, className }: ContainerProps) {
-  return <div className={`${className}`}>{children}</div>;
+  return <div className={`${className} p-8 rounded-lg flex flex-col gap-3`}>{children}</div>;
 }
