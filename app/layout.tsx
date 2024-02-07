@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${barlowSemiCondensed.className}`}>{children}</body>
+      <body className={`${barlowSemiCondensed.className} bg-lightGrayishBlue`}>{children}</body>
     </html>
   );
 }
