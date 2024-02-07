@@ -5,15 +5,15 @@ import Title from "@/components/Title";
 
 export default function Home() {
   return (
-    <main>
-      <Container>
+    <main className="m-auto my-20 flex w-80 flex-col gap-5">
+      <Container className="bg-moderateViolet bg-quotation bg-[top_right_1.5rem] bg-no-repeat">
         <Person person="Daniel Clifford" />
-        <Title>
+        <Title className="text-white">
           I received a job offer mid-course, and the subjects I learned were
           current, if not more so, in the company I joined. I honestly feel I
           got every penny’s worth.
         </Title>
-        <Text>
+        <Text className="text-lightGray">
           “ I was an EMT for many years before I joined the bootcamp. I’ve been
           looking to make a transition and have heard some people who had an
           amazing experience here. I signed up for the free intro course and
@@ -23,31 +23,35 @@ export default function Home() {
           a Software Engineer at a VR startup. ”
         </Text>
       </Container>
-      <Container>
+      <Container className="bg-veryDarkGrayishBlue">
         <Person person="Jonathan Walters" />
-        <Title>The team was very supportive and kept me motivated</Title>
-        <Text>
+        <Title className="text-white">
+          The team was very supportive and kept me motivated
+        </Title>
+        <Text className="text-lightGray">
           “ I started as a total newbie with virtually no coding skills. I now
           work as a mobile engineer for a big company. This was one of the best
           investments I’ve made in myself. ”
         </Text>
       </Container>
-      <Container>
+      <Container className="bg-white">
         <Person person="Jeanette Harmon" />
-        <Title>An overall wonderful and rewarding experience</Title>
-        <Text>
+        <Title className="text-veryDarkBlackishBlue">
+          An overall wonderful and rewarding experience
+        </Title>
+        <Text className="text-veryDarkGrayishBlue">
           “ Thank you for the wonderful experience! I now have a job I really
           enjoy, and make a good living while doing something I love. ”
         </Text>
       </Container>
-      <Container>
+      <Container className="bg-veryDarkBlackishBlue">
         <Person person="Patrick Abrams" />
-        <Title>
+        <Title className="text-white">
           Awesome teaching support from TAs who did the bootcamp themselves.
           Getting guidance from them and learning from their experiences was
           easy.
         </Title>
-        <Text>
+        <Text className="text-lightGray">
           “ The staff seem genuinely concerned about my progress which I find
           really refreshing. The program gave me the confidence necessary to be
           able to go out in the world and present myself as a capable junior
@@ -56,10 +60,12 @@ export default function Home() {
           people. ”
         </Text>
       </Container>
-      <Container>
+      <Container className="bg-white">
         <Person person="Kira Whittle" />
-        <Title>Such a life-changing experience. Highly recommended!</Title>
-        <Text>
+        <Title className="text-veryDarkBlackishBlue">
+          Such a life-changing experience. Highly recommended!
+        </Title>
+        <Text className="text-veryDarkGrayishBlue">
           “ Before joining the bootcamp, I’ve never written a line of code. I
           needed some structure from professionals who can help me learn
           programming step by step. I was encouraged to enroll by a former
