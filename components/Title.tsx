@@ -4,5 +4,7 @@ type TitleProps = {
 };
 
 export default function Title({ children, className }: TitleProps) {
-  return <p className={`${className} text-lg font-semibold`}>{children}</p>;
+  return (
+    <p className={`${className} text-lg lg:text-xl font-semibold`}>{children}</p>
+  );
 }
